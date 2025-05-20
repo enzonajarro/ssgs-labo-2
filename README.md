@@ -23,8 +23,30 @@ Buona analisi e buon lavoro!
 
 ## Installazione e Avvio
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+- Clone the repositories
+````bash
+git clone https://github.com/enzonajarro/ssgs-labo-2.git
+````
+- Enter in the cloned directory
+````bash
+cd ${your_installation_dir}/ssgs-labo2
+````
+- Install dependecies
+````bash
+npm install
+````
 
----
+### How to use
 
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+- Run with
+
+````bash
+npm run dev
+````
+- #### Testing:
+
+To run the tests locally, execute the following command in your terminal:
+
+````bash
+npm test
+````

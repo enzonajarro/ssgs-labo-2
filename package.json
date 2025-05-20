@@ -1,12 +1,32 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe",
+  "main": "index.js",
+  "author": "Enzo Najarro",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./src/stringUtils.js",
+    "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "manipolazione",
+    "esercizi",
+    "laboratorio"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enzonajarro/ssgs-labo-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enzonajarro/ssgs-labo-2/issues"
+  },
+  "homepage": "https://github.com/enzonajarro/ssgs-labo-2",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

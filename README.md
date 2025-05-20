@@ -23,29 +23,29 @@ Buona analisi e buon lavoro!
 
 ## Installazione e Avvio
 
-- Clone the repositories
+- Clon il repository
 ````bash
 git clone https://github.com/enzonajarro/ssgs-labo-2.git
 ````
-- Enter in the cloned directory
+- Enter nella directory clonata
 ````bash
-cd ${your_installation_dir}/ssgs-labo2
+cd ${your_installation_dir}/ssgs-labo-2
 ````
-- Install dependecies
+- Installa dipendenze
 ````bash
 npm install
 ````
 
-### How to use
+### Come usare
 
-- Run with
+- Run con
 
 ````bash
 npm run dev
 ````
 - #### Testing:
 
-To run the tests locally, execute the following command in your terminal:
+Per eseguire i test, eseguire la seguente riga su terminale:
 
 ````bash
 npm test
